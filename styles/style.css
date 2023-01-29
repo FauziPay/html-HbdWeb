@@ -180,3 +180,69 @@ li span {
       opacity: 0;
  }
 }
+
+
+/* audio fisual  */
+#audio-visual{
+  height: 20px;
+  width: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0px;
+
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding-right: 60px;
+}
+#audio-visual .audio-wire{
+  height: 50%;
+  margin: 0px 3px;
+  padding: 0px 1px;
+  background-color: rgb(162, 154, 154);
+  animation: animateUpDown .5s infinite alternate;
+}
+.container h1{
+  font-size: 40px;
+  font-weight: bolder;
+}
+.container p{
+  font-size: 12px;
+  color: rgb(134, 134, 134);
+}
+#audio-visual .audio-wire-1{
+  animation-delay: 50ms;
+}
+#audio-visual .audio-wire-2{
+  animation-delay: 150ms;
+}
+#audio-visual .audio-wire-3{
+  animation-delay: 300ms;
+}
+#audio-visual .audio-wire-4{
+  animation-delay: 450ms;
+}
+#audio-visual .audio-wire-5{
+  animation-delay: 600ms;
+}
+#audio-visual .audio-wire-6{
+  animation-delay: 450ms;
+}
+#audio-visual .audio-wire-7{
+  animation-delay: 300ms;
+}
+#audio-visual .audio-wire-8{
+  animation-delay: 150ms;
+}
+#audio-visual .audio-wire-9{
+  animation-delay: 50ms;
+}
+@keyframes animateUpDown {
+  to{
+      height: 90%;
+  }
+  from{
+      height: 50%;
+  }
+}

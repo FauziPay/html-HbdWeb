@@ -2,10 +2,12 @@ const count = document.getElementById('count');
 const head = document.getElementById('head');
 const giftbox = document.getElementById('merrywrap');
 const canvasC = document.getElementById('c');
+const audio = document.getElementById('music');
+const audio_visual = document.getElementById('audio-visual');
 
 const config = {
-  birthdate: 'Jan 29, 2020',
-  name: 'Darlene'
+  birthdate: 'Jan 28, 2023',
+  name: 'Ukhti Nandine Lafirda'
 };
 
 function hideEverything() {
@@ -13,6 +15,8 @@ function hideEverything() {
   count.style.display = 'none';
   giftbox.style.display = 'none';
   canvasC.style.display = 'none';
+  audio_visual.style.display = 'none';
+  audio.pause()
 }
 
 hideEverything();
@@ -489,6 +493,9 @@ x = setInterval(function() {
     function showfireworks() {
       canvasC.style.display = 'initial';
       setTimeout(anim, 1500);
+
+      audio.play()
+      audio_visual.style.display = 'flex';
     }
 
     init();
@@ -499,3 +506,5 @@ x = setInterval(function() {
   //     console.log("happy birthday");
   // }
 }, second);
+
+
