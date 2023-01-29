@@ -6,8 +6,8 @@ const audio = document.getElementById('music');
 const audio_visual = document.getElementById('audio-visual');
 
 const config = {
-  birthdate: 'Jan 30, 2023',
-  name: 'Ukhti Nandine Lafirda'
+  birthdate: 'Jan 31, 2023',
+  name: 'Nadina Lafirda'
 };
 
 function hideEverything() {
