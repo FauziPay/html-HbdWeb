@@ -25,8 +25,8 @@ replace name and birthdate
 
 ```js
 6   const config = {
-7     birthdate: 'Jan 29, 2020',
-8     name: 'Darlene'
+7     birthdate: 'Jan 31, 2023',
+      name: 'Nadina Lafirda'
 9   };
 ```
 

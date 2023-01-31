@@ -6,7 +6,7 @@ const audio = document.getElementById('music');
 const audio_visual = document.getElementById('audio-visual');
 
 const config = {
-  birthdate: 'Feb 01, 2023',
+  birthdate: 'Jan 31, 2023',
   name: 'Nadina Lafirda'
 };
 
